@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1EBA90251F1D600010B8C0 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1EBA8F251F1D600010B8C0 /* CommentViewController.swift */; };
+		2C206F9325299FD000282B64 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C206F9225299FD000282B64 /* Map.swift */; };
+		2C210A6E251B3AB9002ED562 /* PositiveSimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C210A6D251B3AB9002ED562 /* PositiveSimpleButton.swift */; };
+		2C210A71251C6992002ED562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C210A70251C6992002ED562 /* Main.storyboard */; };
+		2C210A78251C7522002ED562 /* PostTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C210A77251C7522002ED562 /* PostTextField.swift */; };
+		2C215FCE252078EB0060CFB3 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C215FCD252078EB0060CFB3 /* Comment.swift */; };
+		2C2160062521DDFF0060CFB3 /* CustomFloatingPanelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2160052521DDFF0060CFB3 /* CustomFloatingPanelLayout.swift */; };
+		2C2189842526EDDA002F1475 /* InfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2189832526EDDA002F1475 /* InfoListViewController.swift */; };
+		2C27E79A2522FF1D0006A841 /* CyclingMapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C27E7992522FF1D0006A841 /* CyclingMapAppTests.swift */; };
+		2C27E7A42523219A0006A841 /* MapEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C27E7A32523219A0006A841 /* MapEditViewController.swift */; };
+		2CA02BDB25271230000164BD /* InfoListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA02BDA25271230000164BD /* InfoListHeaderView.swift */; };
+		2CA02BDF2527124B000164BD /* InfoListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA02BDE2527124B000164BD /* InfoListHeaderView.xib */; };
+		2CA02BE825271344000164BD /* InfoListFirstViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA02BE625271344000164BD /* InfoListFirstViewCell.swift */; };
+		2CA02BE925271344000164BD /* InfoListFirstViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA02BE725271344000164BD /* InfoListFirstViewCell.xib */; };
+		2CA02BEE2527138D000164BD /* InfoListMemoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA02BEC2527138D000164BD /* InfoListMemoViewCell.swift */; };
+		2CA02BEF2527138D000164BD /* InfoListMemoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA02BED2527138D000164BD /* InfoListMemoViewCell.xib */; };
+		2CA02BF4252713C4000164BD /* InfoListCommentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA02BF2252713C4000164BD /* InfoListCommentViewCell.swift */; };
+		2CA02BF5252713C4000164BD /* InfoListCommentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA02BF3252713C4000164BD /* InfoListCommentViewCell.xib */; };
+		2CA02BF925271410000164BD /* InfoListEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA02BF825271410000164BD /* InfoListEmptyView.swift */; };
+		2CA02BFD2527141C000164BD /* InfoListEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA02BFC2527141C000164BD /* InfoListEmptyView.xib */; };
+		2CA02C032527222B000164BD /* CustomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA02C022527222B000164BD /* CustomModel.swift */; };
+		2CA02C0A2527232E000164BD /* PinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA02C092527232E000164BD /* PinData.swift */; };
+		2CA20F4325242140000FF8DB /* EmptyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA20F4225242140000FF8DB /* EmptyTableView.swift */; };
+		2CA20F4925242155000FF8DB /* EmptyTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA20F4825242155000FF8DB /* EmptyTableView.xib */; };
+		2CA20FBB2526C689000FF8DB /* NewRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA20FBA2526C688000FF8DB /* NewRegistViewController.swift */; };
+		2CC3CFFE2519F303006D68FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3CFFD2519F303006D68FF /* AppDelegate.swift */; };
+		2CC3D0002519F303006D68FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3CFFF2519F303006D68FF /* SceneDelegate.swift */; };
+		2CC3D0072519F306006D68FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC3D0062519F306006D68FF /* Assets.xcassets */; };
+		2CC3D00A2519F306006D68FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC3D0082519F306006D68FF /* LaunchScreen.storyboard */; };
+		2CC3D0142519F3B9006D68FF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3D0122519F3B9006D68FF /* MapViewController.swift */; };
+		2CC3D0192519F4FA006D68FF /* SearchBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3D0182519F4FA006D68FF /* SearchBarButton.swift */; };
+		2CC3D06C251ADA5E006D68FF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3D06A251ADA5E006D68FF /* SearchViewController.swift */; };
+		2CC3D078251B0003006D68FF /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3D076251B0003006D68FF /* CommentTableViewCell.swift */; };
+		2CC3D079251B0003006D68FF /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CC3D077251B0003006D68FF /* CommentTableViewCell.xib */; };
+		2CC3D07D251B01D3006D68FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CC3D07C251B01D3006D68FF /* GoogleService-Info.plist */; };
+		2CE5850E25283556009CABA0 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5850D25283556009CABA0 /* EditViewController.swift */; };
+		A35084470984B05B6681F96E /* Pods_CyclingMapApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DA6B43412916E62AF5F6B5 /* Pods_CyclingMapApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C27E79C2522FF1D0006A841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC3CFF22519F303006D68FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC3CFF92519F303006D68FF;
+			remoteInfo = CyclingMapApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C1EBA8F251F1D600010B8C0 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		2C206F9225299FD000282B64 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		2C210A6D251B3AB9002ED562 /* PositiveSimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveSimpleButton.swift; sourceTree = "<group>"; };
+		2C210A70251C6992002ED562 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2C210A77251C7522002ED562 /* PostTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTextField.swift; sourceTree = "<group>"; };
+		2C215FCD252078EB0060CFB3 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		2C2160052521DDFF0060CFB3 /* CustomFloatingPanelLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFloatingPanelLayout.swift; sourceTree = "<group>"; };
+		2C2189832526EDDA002F1475 /* InfoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListViewController.swift; sourceTree = "<group>"; };
+		2C27E7972522FF1D0006A841 /* CyclingMapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyclingMapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C27E7992522FF1D0006A841 /* CyclingMapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingMapAppTests.swift; sourceTree = "<group>"; };
+		2C27E79B2522FF1D0006A841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C27E7A32523219A0006A841 /* MapEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEditViewController.swift; sourceTree = "<group>"; };
+		2CA02BDA25271230000164BD /* InfoListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListHeaderView.swift; sourceTree = "<group>"; };
+		2CA02BDE2527124B000164BD /* InfoListHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoListHeaderView.xib; sourceTree = "<group>"; };
+		2CA02BE625271344000164BD /* InfoListFirstViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListFirstViewCell.swift; sourceTree = "<group>"; };
+		2CA02BE725271344000164BD /* InfoListFirstViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoListFirstViewCell.xib; sourceTree = "<group>"; };
+		2CA02BEC2527138D000164BD /* InfoListMemoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListMemoViewCell.swift; sourceTree = "<group>"; };
+		2CA02BED2527138D000164BD /* InfoListMemoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoListMemoViewCell.xib; sourceTree = "<group>"; };
+		2CA02BF2252713C4000164BD /* InfoListCommentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListCommentViewCell.swift; sourceTree = "<group>"; };
+		2CA02BF3252713C4000164BD /* InfoListCommentViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoListCommentViewCell.xib; sourceTree = "<group>"; };
+		2CA02BF825271410000164BD /* InfoListEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListEmptyView.swift; sourceTree = "<group>"; };
+		2CA02BFC2527141C000164BD /* InfoListEmptyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoListEmptyView.xib; sourceTree = "<group>"; };
+		2CA02C022527222B000164BD /* CustomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModel.swift; sourceTree = "<group>"; };
+		2CA02C092527232E000164BD /* PinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinData.swift; sourceTree = "<group>"; };
+		2CA20F4225242140000FF8DB /* EmptyTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTableView.swift; sourceTree = "<group>"; };
+		2CA20F4825242155000FF8DB /* EmptyTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTableView.xib; sourceTree = "<group>"; };
+		2CA20FBA2526C688000FF8DB /* NewRegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRegistViewController.swift; sourceTree = "<group>"; };
+		2CC3CFFA2519F303006D68FF /* CyclingMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyclingMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC3CFFD2519F303006D68FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CC3CFFF2519F303006D68FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CC3D0062519F306006D68FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CC3D0092519F306006D68FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CC3D00B2519F306006D68FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC3D0122519F3B9006D68FF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2CC3D0182519F4FA006D68FF /* SearchBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarButton.swift; sourceTree = "<group>"; };
+		2CC3D06A251ADA5E006D68FF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2CC3D076251B0003006D68FF /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		2CC3D077251B0003006D68FF /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		2CC3D07C251B01D3006D68FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2CE5850D25283556009CABA0 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		33791A8DB54C0E8536B479AC /* Pods-CyclingMapApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyclingMapApp.release.xcconfig"; path = "Target Support Files/Pods-CyclingMapApp/Pods-CyclingMapApp.release.xcconfig"; sourceTree = "<group>"; };
+		3B1DB045014D7175DBED591E /* Pods-CyclingMapApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyclingMapApp.debug.xcconfig"; path = "Target Support Files/Pods-CyclingMapApp/Pods-CyclingMapApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E7DA6B43412916E62AF5F6B5 /* Pods_CyclingMapApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyclingMapApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C27E7942522FF1D0006A841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC3CFF72519F303006D68FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35084470984B05B6681F96E /* Pods_CyclingMapApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19DB06BC3D320A55800D8FFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B1DB045014D7175DBED591E /* Pods-CyclingMapApp.debug.xcconfig */,
+				33791A8DB54C0E8536B479AC /* Pods-CyclingMapApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2C27E7982522FF1D0006A841 /* CyclingMapAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C27E7992522FF1D0006A841 /* CyclingMapAppTests.swift */,
+				2C27E79B2522FF1D0006A841 /* Info.plist */,
+			);
+			path = CyclingMapAppTests;
+			sourceTree = "<group>";
+		};
+		2C27E7A725241F2F0006A841 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2CC3D0122519F3B9006D68FF /* MapViewController.swift */,
+				2CA20FBA2526C688000FF8DB /* NewRegistViewController.swift */,
+				2CC3D06A251ADA5E006D68FF /* SearchViewController.swift */,
+				2C1EBA8F251F1D600010B8C0 /* CommentViewController.swift */,
+				2C27E7A32523219A0006A841 /* MapEditViewController.swift */,
+				2C2189832526EDDA002F1475 /* InfoListViewController.swift */,
+				2CE5850D25283556009CABA0 /* EditViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2C27E7AC25241FD30006A841 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CA02BD725271199000164BD /* InfoList */,
+				2CC3D076251B0003006D68FF /* CommentTableViewCell.swift */,
+				2CC3D077251B0003006D68FF /* CommentTableViewCell.xib */,
+				2CC3D0182519F4FA006D68FF /* SearchBarButton.swift */,
+				2C210A6D251B3AB9002ED562 /* PositiveSimpleButton.swift */,
+				2C210A77251C7522002ED562 /* PostTextField.swift */,
+				2C2160052521DDFF0060CFB3 /* CustomFloatingPanelLayout.swift */,
+				2CA20F4225242140000FF8DB /* EmptyTableView.swift */,
+				2CA20F4825242155000FF8DB /* EmptyTableView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2CA02BD725271199000164BD /* InfoList */ = {
+			isa = PBXGroup;
+			children = (
+				2CA02BDA25271230000164BD /* InfoListHeaderView.swift */,
+				2CA02BDE2527124B000164BD /* InfoListHeaderView.xib */,
+				2CA02BE625271344000164BD /* InfoListFirstViewCell.swift */,
+				2CA02BE725271344000164BD /* InfoListFirstViewCell.xib */,
+				2CA02BEC2527138D000164BD /* InfoListMemoViewCell.swift */,
+				2CA02BED2527138D000164BD /* InfoListMemoViewCell.xib */,
+				2CA02BF2252713C4000164BD /* InfoListCommentViewCell.swift */,
+				2CA02BF3252713C4000164BD /* InfoListCommentViewCell.xib */,
+				2CA02BF825271410000164BD /* InfoListEmptyView.swift */,
+				2CA02BFC2527141C000164BD /* InfoListEmptyView.xib */,
+			);
+			path = InfoList;
+			sourceTree = "<group>";
+		};
+		2CA02C0625272309000164BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CA02C022527222B000164BD /* CustomModel.swift */,
+				2C215FCD252078EB0060CFB3 /* Comment.swift */,
+				2CA02C092527232E000164BD /* PinData.swift */,
+				2C206F9225299FD000282B64 /* Map.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CC3CFF12519F303006D68FF = {
+			isa = PBXGroup;
+			children = (
+				2CC3CFFC2519F303006D68FF /* CyclingMapApp */,
+				2C27E7982522FF1D0006A841 /* CyclingMapAppTests */,
+				2CC3CFFB2519F303006D68FF /* Products */,
+				19DB06BC3D320A55800D8FFA /* Pods */,
+				824EA5A569A85A3C79058390 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CC3CFFB2519F303006D68FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CC3CFFA2519F303006D68FF /* CyclingMapApp.app */,
+				2C27E7972522FF1D0006A841 /* CyclingMapAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CC3CFFC2519F303006D68FF /* CyclingMapApp */ = {
+			isa = PBXGroup;
+			children = (
+				2CC3CFFD2519F303006D68FF /* AppDelegate.swift */,
+				2CC3CFFF2519F303006D68FF /* SceneDelegate.swift */,
+				2CC3D0062519F306006D68FF /* Assets.xcassets */,
+				2C210A70251C6992002ED562 /* Main.storyboard */,
+				2CC3D0082519F306006D68FF /* LaunchScreen.storyboard */,
+				2CC3D00B2519F306006D68FF /* Info.plist */,
+				2CC3D07C251B01D3006D68FF /* GoogleService-Info.plist */,
+				2C27E7A725241F2F0006A841 /* ViewController */,
+				2C27E7AC25241FD30006A841 /* View */,
+				2CA02C0625272309000164BD /* Model */,
+			);
+			path = CyclingMapApp;
+			sourceTree = "<group>";
+		};
+		824EA5A569A85A3C79058390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7DA6B43412916E62AF5F6B5 /* Pods_CyclingMapApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C27E7962522FF1D0006A841 /* CyclingMapAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C27E7A02522FF1D0006A841 /* Build configuration list for PBXNativeTarget "CyclingMapAppTests" */;
+			buildPhases = (
+				2C27E7932522FF1D0006A841 /* Sources */,
+				2C27E7942522FF1D0006A841 /* Frameworks */,
+				2C27E7952522FF1D0006A841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C27E79D2522FF1D0006A841 /* PBXTargetDependency */,
+			);
+			name = CyclingMapAppTests;
+			productName = CyclingMapAppTests;
+			productReference = 2C27E7972522FF1D0006A841 /* CyclingMapAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CC3CFF92519F303006D68FF /* CyclingMapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC3D00E2519F306006D68FF /* Build configuration list for PBXNativeTarget "CyclingMapApp" */;
+			buildPhases = (
+				D8DB726479D5002EE93036F8 /* [CP] Check Pods Manifest.lock */,
+				2CC3CFF62519F303006D68FF /* Sources */,
+				2CC3CFF72519F303006D68FF /* Frameworks */,
+				2CC3CFF82519F303006D68FF /* Resources */,
+				355F2C183B7B102E50355C30 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CyclingMapApp;
+			productName = CyclingMapApp;
+			productReference = 2CC3CFFA2519F303006D68FF /* CyclingMapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CC3CFF22519F303006D68FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2C27E7962522FF1D0006A841 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2CC3CFF92519F303006D68FF;
+					};
+					2CC3CFF92519F303006D68FF = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 2CC3CFF52519F303006D68FF /* Build configuration list for PBXProject "CyclingMapApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CC3CFF12519F303006D68FF;
+			productRefGroup = 2CC3CFFB2519F303006D68FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CC3CFF92519F303006D68FF /* CyclingMapApp */,
+				2C27E7962522FF1D0006A841 /* CyclingMapAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C27E7952522FF1D0006A841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC3CFF82519F303006D68FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC3D00A2519F306006D68FF /* LaunchScreen.storyboard in Resources */,
+				2CA02BF5252713C4000164BD /* InfoListCommentViewCell.xib in Resources */,
+				2CC3D0072519F306006D68FF /* Assets.xcassets in Resources */,
+				2CA02BDF2527124B000164BD /* InfoListHeaderView.xib in Resources */,
+				2CC3D079251B0003006D68FF /* CommentTableViewCell.xib in Resources */,
+				2CA02BEF2527138D000164BD /* InfoListMemoViewCell.xib in Resources */,
+				2C210A71251C6992002ED562 /* Main.storyboard in Resources */,
+				2CA02BE925271344000164BD /* InfoListFirstViewCell.xib in Resources */,
+				2CA20F4925242155000FF8DB /* EmptyTableView.xib in Resources */,
+				2CA02BFD2527141C000164BD /* InfoListEmptyView.xib in Resources */,
+				2CC3D07D251B01D3006D68FF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		355F2C183B7B102E50355C30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CyclingMapApp/Pods-CyclingMapApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CyclingMapApp/Pods-CyclingMapApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CyclingMapApp/Pods-CyclingMapApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8DB726479D5002EE93036F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CyclingMapApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C27E7932522FF1D0006A841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C27E79A2522FF1D0006A841 /* CyclingMapAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC3CFF62519F303006D68FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE5850E25283556009CABA0 /* EditViewController.swift in Sources */,
+				2CA02C032527222B000164BD /* CustomModel.swift in Sources */,
+				2CC3D06C251ADA5E006D68FF /* SearchViewController.swift in Sources */,
+				2CA02BE825271344000164BD /* InfoListFirstViewCell.swift in Sources */,
+				2CA02BEE2527138D000164BD /* InfoListMemoViewCell.swift in Sources */,
+				2C27E7A42523219A0006A841 /* MapEditViewController.swift in Sources */,
+				2CA02C0A2527232E000164BD /* PinData.swift in Sources */,
+				2CA20FBB2526C689000FF8DB /* NewRegistViewController.swift in Sources */,
+				2CC3CFFE2519F303006D68FF /* AppDelegate.swift in Sources */,
+				2CC3D0002519F303006D68FF /* SceneDelegate.swift in Sources */,
+				2C210A78251C7522002ED562 /* PostTextField.swift in Sources */,
+				2CC3D0142519F3B9006D68FF /* MapViewController.swift in Sources */,
+				2CA02BF925271410000164BD /* InfoListEmptyView.swift in Sources */,
+				2CA02BDB25271230000164BD /* InfoListHeaderView.swift in Sources */,
+				2C206F9325299FD000282B64 /* Map.swift in Sources */,
+				2C2160062521DDFF0060CFB3 /* CustomFloatingPanelLayout.swift in Sources */,
+				2C215FCE252078EB0060CFB3 /* Comment.swift in Sources */,
+				2CC3D0192519F4FA006D68FF /* SearchBarButton.swift in Sources */,
+				2C210A6E251B3AB9002ED562 /* PositiveSimpleButton.swift in Sources */,
+				2CC3D078251B0003006D68FF /* CommentTableViewCell.swift in Sources */,
+				2CA02BF4252713C4000164BD /* InfoListCommentViewCell.swift in Sources */,
+				2CA20F4325242140000FF8DB /* EmptyTableView.swift in Sources */,
+				2C2189842526EDDA002F1475 /* InfoListViewController.swift in Sources */,
+				2C1EBA90251F1D600010B8C0 /* CommentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C27E79D2522FF1D0006A841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC3CFF92519F303006D68FF /* CyclingMapApp */;
+			targetProxy = 2C27E79C2522FF1D0006A841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CC3D0082519F306006D68FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CC3D0092519F306006D68FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C27E79E2522FF1D0006A841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P63387VRF6;
+				INFOPLIST_FILE = CyclingMapAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuya.CyclingMapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyclingMapApp.app/CyclingMapApp";
+			};
+			name = Debug;
+		};
+		2C27E79F2522FF1D0006A841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P63387VRF6;
+				INFOPLIST_FILE = CyclingMapAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuya.CyclingMapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyclingMapApp.app/CyclingMapApp";
+			};
+			name = Release;
+		};
+		2CC3D00C2519F306006D68FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CC3D00D2519F306006D68FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CC3D00F2519F306006D68FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1DB045014D7175DBED591E /* Pods-CyclingMapApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P63387VRF6;
+				INFOPLIST_FILE = CyclingMapApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuya.CyclingMapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CC3D0102519F306006D68FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33791A8DB54C0E8536B479AC /* Pods-CyclingMapApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P63387VRF6;
+				INFOPLIST_FILE = CyclingMapApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuya.CyclingMapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C27E7A02522FF1D0006A841 /* Build configuration list for PBXNativeTarget "CyclingMapAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C27E79E2522FF1D0006A841 /* Debug */,
+				2C27E79F2522FF1D0006A841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC3CFF52519F303006D68FF /* Build configuration list for PBXProject "CyclingMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC3D00C2519F306006D68FF /* Debug */,
+				2CC3D00D2519F306006D68FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC3D00E2519F306006D68FF /* Build configuration list for PBXNativeTarget "CyclingMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC3D00F2519F306006D68FF /* Debug */,
+				2CC3D0102519F306006D68FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CC3CFF22519F303006D68FF /* Project object */;
+}
